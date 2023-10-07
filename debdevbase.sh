@@ -7,6 +7,15 @@ if [ $sudostatus != 'yes' ]; then
 fi
 
 echo "Starting installing..."
+
+apt update
+apt upgrade
+apt install git nala lightdm i3 nitrogen polybar
+
+echo "Installation finished - rebooting..."
+
+reboot
+
 	
 
 
