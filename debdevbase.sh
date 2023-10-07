@@ -9,8 +9,8 @@ fi
 echo "Starting installing..."
 
 apt update
-apt upgrade -y
-apt install git nala lightdm i3 nitrogen polybar -y
+apt upgrade --yes
+apt install --yes git nala lightdm i3 nitrogen polybar -y
 
 echo "Installation finished - rebooting..."
 
