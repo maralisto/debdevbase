@@ -8,6 +8,7 @@ fi
 
 echo "Starting installing..."
 
+sudo -v
 apt update
 apt upgrade
 apt install git nala lightdm i3 nitrogen polybar
