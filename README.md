@@ -10,7 +10,7 @@ The setup is as follows:
  - Firefox ESR as Browser
  - Neovim as Text-Editor / IDE
  - Nala as APT-Replacement
- - Nitrogen for setting resulutions/wallpapers
+ - Nitrogen for setting wallpapers
  - A little bit of theming...
 
 ## Usage
