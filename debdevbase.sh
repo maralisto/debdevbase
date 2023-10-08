@@ -14,7 +14,7 @@ echo "Starting installing..."
 export DEBIAN_FRONTEND=noninteractive
 apt update
 apt upgrade --yes
-apt install --yes git nala lightdm i3 nitrogen polybar alacritty firefox-esr neofetch neovim
+apt install --yes git nala lightdm i3 nitrogen polybar alacritty firefox-esr neofetch neovim rofi
 
 echo "Copying configuration files..."
 mkdir ~/.config
