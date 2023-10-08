@@ -17,8 +17,8 @@ apt upgrade --yes
 apt install --yes git nala lightdm i3 nitrogen polybar alacritty firefox-esr neofetch neovim rofi
 
 echo "Copying configuration files..."
-mkdir ~/.config
-mv ./configs/* ~/.config
+mkdir /home/$SUDO_USER/.config
+mv ./configs/* /home/$SUDO_USER/.config
 
 echo "Setting up systemctl..."
 systemctl set-default graphical.target
