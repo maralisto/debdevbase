@@ -14,8 +14,13 @@ echo "Starting installing..."
 export DEBIAN_FRONTEND=noninteractive
 apt update
 apt upgrade --yes
-apt install --yes git nala lightdm i3 nitrogen polybar alacritty firefox-esr neofetch
+apt install --yes git nala lightdm i3 nitrogen polybar alacritty firefox-esr neofetch neovim
 
+echo "Copying configuration files..."
+mkdir ~/.config
+mv ./configs/* ~/.config
+
+echo "Setting up systemctl..."
 systemctl set-default graphical.target
 systemctl enable lightdm.service
 
