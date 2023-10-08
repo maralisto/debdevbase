@@ -8,6 +8,7 @@ The setup is as follows:
  - Rofi
  - Alakritty
  - Firefox ESR
+ - Neovim
  - A little bit of theming...
 
 ## Usage
