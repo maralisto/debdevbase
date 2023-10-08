@@ -1,5 +1,5 @@
 # debdevbase
-Little kickstart script for customizing a minimal clean Debian Bookworm installation for dev-usage in a virtual machine.
+Little kickstart script for customizing a minimal clean Debian Bookworm installation (no DE, no Debian utilities) for dev-usage in a virtual machine.
 
 The setup is as follows:
  - LightDM
