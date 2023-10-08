@@ -1,7 +1,5 @@
 #!/bin/bash
 
-# command: bash <(curl -L https://raw.githubusercontent.com/maralisto/debdevbase/main/debdevbase.sh)
-
 echo "Welcome to maralisto's base install script for a development environment for execution in a VM!"
 read -p  "Please make sure that the script is sudo-ed (type: yes): " sudostatus
 
