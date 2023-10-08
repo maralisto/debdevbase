@@ -15,6 +15,9 @@ The repo should be cloned into the home directory and the debdevbase.sh should b
 
 ## Shortcuts
 Open Terminal: SUPER + ENTER
+
 Open Launcher: SUPER + D
+
 Close Window: SUPER + SHIFT + X
+
 Switch/Create Workspaces: SUPER + [1..9]
